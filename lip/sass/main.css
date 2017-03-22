@@ -1,44 +1,87 @@
-.header-background {
-  background-image: url("../../img/header-background.png");
-  height: 600px;
-  width: 100%;
-  display: inline-block; }
-  .header-background .navbar-default {
-    background: none;
-    border: none;
-    box-shadow: none; }
-    .header-background .navbar-default ul {
-      margin: 32px 0 0 20px; }
-      .header-background .navbar-default ul li a {
-        color: #fff;
-        padding: 0 0 0 23px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold; }
-    .header-background .navbar-default .navbar-collapse {
-      margin-bottom: 100px; }
-  .header-background .header-main-heading h1 {
-    color: #ffffff;
-    margin: 0;
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold; }
-  .header-background ul {
-    margin-top: 80px;
-    text-align: center; }
-    .header-background ul li {
-      list-style: none;
-      display: inline-block;
+body {
+  font-family: 'Raleway', sans-serif; }
+  body .header-background {
+    background-image: url("../../img/header-background.png");
+    height: 720px;
+    width: 100%;
+    display: inline-block; }
+    body .header-background .navbar-default {
+      background: none;
+      border: none;
+      box-shadow: none; }
+      body .header-background .navbar-default ul {
+        margin: 32px 0 0 20px; }
+        body .header-background .navbar-default ul li a {
+          color: #fff;
+          padding: 0 0 0 23px;
+          font-weight: bold; }
+      body .header-background .navbar-default .navbar-collapse {
+        margin-bottom: 100px; }
+    body .header-background .header-main-heading h1 {
+      color: #ffffff;
+      margin: 0;
+      text-align: center;
+      font-size: 60px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    body .header-background .icons {
+      margin-top: 80px;
+      margin-right: 60px;
       text-align: center; }
-      .header-background ul li .header-icons {
-        margin-bottom: 20px; }
-      .header-background ul li p {
+      body .header-background .icons .header-icons {
+        position: relative;
+        top: -20px; }
+      body .header-background .icons li {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        margin: 0 0 0 30px; }
+        body .header-background .icons li p {
+          color: #ffffff;
+          margin: 10px 0 0 0; }
+    body .header-background button {
+      color: #4c667a;
+      background: #ffffff;
+      width: 18%;
+      height: 45px;
+      border: none;
+      font-weight: bold;
+      font-size: 25px;
+      margin: 45px 0; }
+  body .middle-about-academy {
+    background: url("../../img/about-academy-bg.jpg");
+    height: 588px;
+    color: #555555; }
+    body .middle-about-academy h1 {
+      margin: 220px 0 60px 0; }
+    body .middle-about-academy p {
+      line-height: 30px;
+      width: 65%; }
+    body .middle-about-academy img {
+      margin-top: 50px;
+      position: relative; }
+  body .best-guide {
+    background: url("../../img/best-guide-bg.jpg");
+    height: 203px;
+    position: relative; }
+    body .best-guide h4 {
+      color: #ffffff;
+      display: inline-block;
+      position: relative;
+      top: 20px;
+      left: 10px;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 3px; }
+      body .best-guide h4 span {
+        font-size: 11px;
+        margin: 0 0 0 -58px;
         color: #ffffff; }
-  .header-background button {
-    color: #4c667a;
-    background: #ffffff;
-    width: 18%;
-    height: 45px;
-    border: none; }
+      body .best-guide h4 .leaners {
+        margin: 0 0 0 -35px; }
+      body .best-guide h4 .professional {
+        margin: 0; }
+  body .courses {
+    background: url("../../img/what-you-learn-bg.jpg");
+    height: 1230px; }
 
 /*# sourceMappingURL=main.css.map */
