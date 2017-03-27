@@ -1,10 +1,13 @@
 body{
-  font-family: 'Raleway', sans-serif;
-
+  font-family: 'Raleway', sans-serif !important;
+  .padding-hero{
+    padding: 0;
+  }
 .header-background{
-  background-image: url("../../img/header-background.png");
-  height: 720px;
+  background-image: url("../../img/hybrid-banner-bg.jpg");
+  //height: 720px;
   width: 100%;
+  background-size: cover;
   display: inline-block;
 
   .navbar-default{
@@ -109,7 +112,272 @@ background: url("../../img/best-guide-bg.jpg");
   }
 }
   .courses{
-    background: url("../../img/what-you-learn-bg.jpg");
-    height: 1230px;
+    background: url("../../img/thrid-bc.png");
+    color: #ffffff;
+    //padding: 0 0 0 20px;
+    .courses-heading{
+      margin: -2px 0 0 -14px;
+    }
+    //margin-top: 25px;
+    h1{
+      margin-top: 90px;
+      margin-bottom: 60px;
+      color: #000000;
+    }
+    h2{
+      font-size: 22px;
+    }
+    h3{
+      font-size: 20px;
+      margin-top: 80px;
+    }
+    h5{
+      width: 40%;
+      background-color: $label-color;
+      position: relative;
+      padding: 10px 0 10px 30px;
+      margin: 20px 0 0 -34px;
+      top: 20px;
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        border-left: 15px solid transparent;
+        border-top: 15px solid #0f7563;
+        width: 0;
+        height: 0;
+      }
+    }
+  h6{
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+  }
+    p{
+      font-size: 14px;
+    }
+    img{
+      margin-top: 25px;
+    }
+    .courese-end{
+      color: #404040;
+      margin-bottom: 40px;
+      span{
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+    .featured-couses{
+      background: url("../../img/featured-courses.png");
+      height: 425px;
+      color: #ffffff;
+      img{
+        margin-top: 75px;
+      }
+      h2{
+        font-size: 25px;
+      }
+      .featured-icon{
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      h2{
+        margin: 0 !important;
+      }
+    }
+    .hybrid-apps{
+      background: url("../../img/hybrid-apps-background.png");
+      color: #ffffff;
+      height: 200px;
+    }
+    .meteor-apps{
+      background: url("../../img/meteor-apps-bg.png");
+      height: 200px;
+      margin-top: 23px;
+      color: #ffffff;
+    }
+    .wordpress{
+      background: url("../../img/wordpress-develop-bg.png");
+      height: 200px;
+      margin-top: 23px;
+      color: #ffffff;
+    }
+    .destop-apps{
+      background: url("../../img/destop-app.png");
+      height: 200px;
+      color: #ffffff;
+      margin-top: 23px;
+    }
+    .machine-language{
+      background: url("../../img/machine-laguage-bg.jpg");
+      padding: 0 0 0 20px;
+    }
+    .mean-stack{
+      background: url("../../img/meanstack-bg.jpg");
+      padding: 0 0 0 20px;
+    }
+    .hybrid-app-develpment{
+      background: url("../../img/short-hybrid-bg.jpg");
+      padding: 0 0 0 20px;
+    }
+  }
+  .providing{
+    background: url("../../img/PROVIVDIN-BACKGROUNG.png")no-repeat;
+    .providing-icon{
+      margin: 70px 0 0 0;
+      h1{
+        font-size: 40px;
+        color: #ffffff;
+        span{
+          font-weight: bold;
+        }
+      }
+      button{
+        background: #ffffff;
+        height: 35px;
+        width: 15%;
+        color: #18ab91;
+        border: none;
+        margin: 25px 0 60px 0;
+      }
+    }
+  }
+  .create-courses{
+    background: url("../../img/create-course-bg.jpg");
+    height: 680px;
+    h1{
+      margin: 90px 0 50px 0;
+    }
+    .create-courses-button{
+      display: flex;
+    }
+    //.control-group {
+    //  display: inline-block;
+    //  width: 200px;
+    //  height: 210px;
+    //  margin: 10px;
+    //  padding: 30px;
+    //  text-align: left;
+    //  vertical-align: top;
+    //  background: #fff;
+    //  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    //}
+    //.control {
+    //  font-size: 18px;
+    //  position: relative;
+    //  display: block;
+    //  margin-bottom: 15px;
+    //  padding-left: 30px;
+    //  cursor: pointer;
+    //}
+    //
+    //.control input {
+    //  position: absolute;
+    //  z-index: -1;
+    //  opacity: 0;
+    //}
+    //.control__indicator {
+    //  position: absolute;
+    //  top: 2px;
+    //  left: 0;
+    //  width: 20px;
+    //  height: 20px;
+    //  background: #e6e6e6;
+    //  width: 100%;
+    //}
+    //
+    //.control--radio .control__indicator {
+    //  border-radius: 50%;
+    //}
+    ///* Hover and focus states */
+    //.control:hover input ~ .control__indicator,
+    //.control input:focus ~ .control__indicator {
+    //  background: #ccc;
+    //}
+    //
+    ///* Checked state */
+    //.control input:checked ~ .control__indicator {
+    //  //background: #2aa1c0;
+    //}
+    //
+    ///* Hover state whilst checked */
+    //.control:hover input:not([disabled]):checked ~ .control__indicator,
+    //.control input:checked:focus ~ .control__indicator {
+    //  background: #0e647d;
+    //}
+    //
+    ///* Disabled state */
+    //.control input:disabled ~ .control__indicator {
+    //  pointer-events: none;
+    //  opacity: .6;
+    //  background: #e6e6e6;
+    //}
+    //
+    ///* Check mark */
+    //.control__indicator:after {
+    //  position: absolute;
+    //  display: none;
+    //  content: '';
+    //}
+    //
+    ///* Show check mark */
+    //.control input:checked ~ .control__indicator:after {
+    //  display: block;
+    //}
+    //
+    ///* Checkbox tick */
+    //.control--checkbox .control__indicator:after {
+    //  top: 4px;
+    //  left: 8px;
+    //  width: 3px;
+    //  height: 8px;
+    //  transform: rotate(45deg);
+    //  border: solid #fff;
+    //  border-width: 0 2px 2px 0;
+    //}
+    //
+    ///* Disabled tick colour */
+    //.control--checkbox input:disabled ~ .control__indicator:after {
+    //  border-color: #7b7b7b;
+    //}
+    ul{
+      display: inline-flex;
+      list-style: none;
+      padding: 0 !important;
+      li{
+        padding: 0 20px 0 0;
+        a{
+          p{
+            background: #fff;
+            width: 100%;
+            padding: 0 60px;
+          }
+        }
+      }
+    }
+    button{
+      background: #fff;
+      border: none;
+      padding: 10px 10px;
+    }
+    .create-courses-second-row{
+      ul{
+        li{
+          button{
+            padding: 0 45px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .icons-background{
+    background: url("../../img/icons-backgorund.png");
+    padding: 60px 0;
+    .icon-img{
+      margin-bottom: 20px;
+    }
   }
 }
