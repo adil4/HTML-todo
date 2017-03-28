@@ -380,4 +380,429 @@ background: url("../../img/best-guide-bg.jpg");
       margin-bottom: 20px;
     }
   }
+  .recent-event{
+    background: url("../../img/slider-background.png");
+    background-position: 0 -897px;
+    h1{
+      margin: 90px 0 60px 0;
+    }
+    .annual-wordpress{
+      background: #ffffff;
+      padding: 0;
+      margin-bottom: 60px;
+      img{
+       width: 100%;
+      }
+      h3{
+        padding: 0 20px;
+        font-size: 20px;
+      }
+      p{
+        padding: 0 20px;
+      }
+      label{
+        padding: 0 20px 10px;
+      }
+    }
+  }
+  .form{
+    background: rgba(17, 100, 149, 0.7);
+
+    height: 580px;
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+h1{
+  color: #fff;
+  padding: 40px 0 20px 10px;
 }
+  .form-group{
+    margin: 0;
+  }
+  .comment{
+    margin: 20px 0 0 0;
+  }
+  input{
+    background: none;
+    border-radius: 0;
+    padding: 30px 0 30px 40px;
+  }
+  i{
+    position: relative;
+    top: 27px;
+    left: 10px;
+    color: #ffffff;
+  }
+    button{
+      width: 100%;
+      border-radius:0;
+      background: #ffffff;
+      color: #a0c7de;
+      font-weight: bold;
+      margin-top: 20px;
+
+    }
+}
+  .map {
+    position: relative;
+
+  }
+  .details{
+    background: #17a992;
+    color: #ffffff;
+    img{
+      margin: 30px 0 30px;
+    }
+    p{
+      font-family: sans-serif;
+      margin-bottom: 50px;
+    }
+  }
+
+  //.form-transformation {
+  //  padding: 20px;
+  //  position: absolute;
+  //  top: 100px;
+  //  left: 100px;
+  //  //font-family: $font-style;
+  //  h1 {
+  //    //color: $color-white;
+  //    font-size:35px;
+  //  }
+  //  .form-div {
+  //    width: 615px;
+  //    height: 595px;
+  //    background: rgba(0, 95, 150, 0.9);
+  //    padding: 15px;
+  //    input, textarea {
+  //      //@include form-input;
+  //    }
+  //    .group {
+  //      img {
+  //        position: relative;
+  //        top: 32px;
+  //        left: 6px;
+  //      }
+  //      input {
+  //        height: 40px;
+  //        padding: 0 9px 0 35px;
+  //        color: #ffffff;
+  //        border-radius:0;
+  //      }
+  //    }
+  //    .textarea-comments {
+  //      margin: 20px 0 0;
+  //      resize: none;
+  //      border-radius:0 !important;
+  //    }
+  //    button {
+  //      width: 100%;
+  //      height: 60px;
+  //      margin: 24px 0 0 0;
+  //      //font-family: "Raleway Bold", sans-serif;
+  //      font-size: 18px;
+  //      font-weight: 700;
+  //      border-radius: 0;
+  //      color: #1174ad;
+  //    }
+  //  }
+  //
+  //}
+
+  //.details {
+  //  width:100%;
+  //  //height: 170px;
+  //  padding: 20px 0;
+  //  margin-top: -7px;
+  //  //background-image: url("../images/data-bg-img.jpg");
+  //  background-attachment: fixed;
+  //  display: table;
+  //  font-family: 'Raleway OpenSans',sans-serif;
+  //
+  //  .text-center{
+  //    padding:10px 0;
+  //  }
+  //  img{
+  //    padding: 10px 0 0 0;
+  //  }
+  //  p {
+  //    font-size: 20px;
+  //    //color: $color-white;
+  //    width: 100%;
+  //    margin: 15px 0 0 0;
+  //  }
+  //}
+
+  //.last-div {
+  //  //font-family: $font-style;
+  //  width: 100%;
+  //  height: auto;
+  //  //background: url("../images/last-background.png") no-repeat;
+  //  background-attachment: fixed;
+  //  background-size: cover;
+  //  float: left;
+  //  .bg-on-image {
+  //    width: 100%;
+  //    padding: 30px;
+  //    background-color: rgba(15, 54, 76, 0.71);
+  //    float: left;
+  //  }
+  //  h5 {
+  //    //color: $color-white;
+  //    letter-spacing: 1px;
+  //    font-size: 22px;
+  //    padding-top: 15px;
+  //    font-weight: 600;
+  //  }
+  //  p {
+  //    //color: $color-white;
+  //    font-size: 14px;
+  //  }
+  //  .appBakerZ {
+  //    padding-top: 40px;
+  //    //width:80%;
+  //  }
+  //  .input-group {
+  //    display: inline-flex;
+  //    //vertical-align: middle;
+  //    input {
+  //      width: 280px ;
+  //      height: 28px ;
+  //      //text-align: center;
+  //      border-radius:0 !important ;
+  //      //font-style: $font-style !important ;
+  //      font-size: 13px !important ;
+  //      color: #333 ;
+  //      padding-left: 10px ;
+  //    }
+  //  }
+  //
+  //  button {
+  //    width: 130px;
+  //    height: 28px;
+  //    //color: $color-white;
+  //    //font-style: $font-style !important;
+  //    font-size: 13px !important;
+  //    background-color: #106a9f !important;
+  //    border-radius:0 !important;
+  //    margin: 0 0 25px 25px;
+  //    padding: 0 !important;
+  //    &:hover{
+  //      color: #ffffff;
+  //    }
+  //
+  //  }
+  //  i {
+  //    width: 45px;
+  //    margin-top: 90px;
+  //    color: #ffffff;
+  //    cursor: pointer;
+  //    font-size: 45px;
+  //  }
+  //  .fa-facebook-official {
+  //    &:hover {
+  //      color: #005eb2;
+  //    }
+  //  }
+  //  .fa-google-plus-square {
+  //    &:hover {
+  //      color: #e62b34;
+  //    }
+  //  }
+  //  .fa-twitter-square {
+  //    &:hover {
+  //      color: #43bdf0;
+  //    }
+  //  }
+  //  .fa-youtube-square {
+  //    &:hover {
+  //      color: #dd3125;
+  //    }
+  //  }
+  //}
+
+
+  //.map {
+  //  position: relative;
+  //}
+
+  //.form-transformation {
+  //  padding: 20px;
+  //  position: absolute;
+  //  top: 100px;
+  //  left: 100px;
+  //  //font-family: $font-style;
+  //  h1 {
+  //    //color: $color-white;
+  //    font-size:35px;
+  //  }
+  //  .form-div {
+  //    width: 615px;
+  //    height: 595px;
+  //    background: rgba(0, 95, 150, 0.9);
+  //    padding: 15px;
+  //    input, textarea {
+  //      //@include form-input;
+  //    }
+  //    .group {
+  //      img {
+  //        position: relative;
+  //        top: 32px;
+  //        left: 6px;
+  //      }
+  //      input {
+  //        height: 40px;
+  //        padding: 0 9px 0 35px;
+  //        color: #ffffff;
+  //        border-radius:0;
+  //      }
+  //    }
+  //    .textarea-comments {
+  //      margin: 20px 0 0;
+  //      resize: none;
+  //      border-radius:0 !important;
+  //    }
+  //    button {
+  //      width: 100%;
+  //      height: 60px;
+  //      margin: 24px 0 0 0;
+  //      //font-family: "Raleway Bold", sans-serif;
+  //      font-size: 18px;
+  //      font-weight: 700;
+  //      border-radius: 0;
+  //      color: #1174ad;
+  //    }
+  //  }
+  //
+  //}
+
+  //.details {
+  //  width:100%;
+  //  //height: 170px;
+  //  padding: 20px 0;
+  //  margin-top: -7px;
+  //  //background-image: url("../images/data-bg-img.jpg");
+  //  //background-attachment: fixed;
+  //  display: table;
+  //  font-family: 'Raleway OpenSans',sans-serif;
+  //
+  //  .text-center{
+  //    padding:10px 0;
+  //  }
+  //  img{
+  //    padding: 10px 0 0 0;
+  //  }
+  //  p {
+  //    font-size: 20px;
+  //    //color: $color-white;
+  //    width: 100%;
+  //    margin: 15px 0 0 0;
+  //  }
+  //}
+
+  //.last-div {
+  //  //font-family: $font-style;
+  //  width: 100%;
+  //  height: auto;
+  //  //background: url("../images/last-background.png") no-repeat;
+  //  background-attachment: fixed;
+  //  background-size: cover;
+  //  float: left;
+  //  .bg-on-image {
+  //    width: 100%;
+  //    padding: 30px;
+  //    background-color: rgba(15, 54, 76, 0.71);
+  //    float: left;
+  //  }
+  //  h5 {
+  //    //color: $color-white;
+  //    letter-spacing: 1px;
+  //    font-size: 22px;
+  //    padding-top: 15px;
+  //    font-weight: 600;
+  //  }
+  //  p {
+  //    //color: $color-white;
+  //    font-size: 14px;
+  //  }
+  //  .appBakerZ {
+  //    padding-top: 40px;
+  //    //width:80%;
+  //  }
+  //  .input-group {
+  //    display: inline-flex;
+  //    //vertical-align: middle;
+  //    input {
+  //      width: 280px ;
+  //      height: 28px ;
+  //      //text-align: center;
+  //      border-radius:0 !important ;
+  //      //font-style: $font-style !important ;
+  //      font-size: 13px !important ;
+  //      color: #333 ;
+  //      padding-left: 10px ;
+  //    }
+  //  }
+  //
+  //  button {
+  //    width: 130px;
+  //    height: 28px;
+  //    //color: $color-white;
+  //    //font-style: $font-style !important;
+  //    font-size: 13px !important;
+  //    background-color: #106a9f !important;
+  //    border-radius:0 !important;
+  //    margin: 0 0 25px 25px;
+  //    padding: 0 !important;
+  //    &:hover{
+  //      color: #ffffff;
+  //    }
+  //
+  //  }
+  //  i {
+  //    width: 45px;
+  //    margin-top: 90px;
+  //    color: #ffffff;
+  //    cursor: pointer;
+  //    font-size: 45px;
+  //  }
+  //  .fa-facebook-official {
+  //    &:hover {
+  //      color: #005eb2;
+  //    }
+  //  }
+  //  .fa-google-plus-square {
+  //    &:hover {
+  //      color: #e62b34;
+  //    }
+  //  }
+  //  .fa-twitter-square {
+  //    &:hover {
+  //      color: #43bdf0;
+  //    }
+  //  }
+  //  .fa-youtube-square {
+  //    &:hover {
+  //      color: #dd3125;
+  //    }
+  //  }
+  //}
+
+
+  //.footer {
+  //  background-color: #043450;
+  //  //padding: 15px 0;
+  //  .copy-rights{
+  //    //color: $color-white;
+  //    font-family: "Open Sans",sans-serif;
+  //    font-size: 16px;
+  //  }
+  //}
+
+}
+
+
+
+
+
+
