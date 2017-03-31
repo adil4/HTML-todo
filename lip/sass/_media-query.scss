@@ -1,11 +1,14 @@
 @media (min-width: 320px) and (max-width: 767px){
+.padding-hero{
+  padding: 0;
+}
   .header-background{
     .navbar-toggle{
       background: none;
       margin: 25px 0;
-     &:hover{
-       background-color:transparent !important;
-     }
+      &:hover{
+        background-color:transparent !important;
+      }
     }
     .navbar-header{
       background: #000000;
@@ -21,41 +24,207 @@
       margin: 45px 0;
     }
     .header-main-heading{
-     h1{
-       font-size: 32px !important;
-     }
+      h1{
+        font-size: 32px !important;
+      }
     }
     .icons{
       display: none;
     }
   }
   .middle-about-academy{
-  h1{
-    margin: 39px 0 30px 0 !important;
-    font-size: 20px;
-    text-align: center
-  }
+    h1{
+      margin: 39px 0 30px 0 !important;
+      font-size: 20px;
+      text-align: center
+    }
     p{
       line-height: 30px;
       width: 100% !important;
-      font-size: 13px;
+      font-size: 13px !important;
       text-align: center;
     }
     img{
       text-align: center;
-      margin: 0 auto;
+      margin-top: 30px !important;
       width: 100%;
     }
   }
   .providing{
+    float: left;
     .providing-icon{
       h1{
-        font-size: 24px;
+        font-size: 24px !important;
       }
       button{
-        width: 35%;
+        width: 55% !important;
       }
     }
+  }
+  .best-guide{
+    padding-bottom: 20px !important;
+    ul{
+      margin-bottom: 30px;
+      width: 100%;
+      img{
+        margin: 0;
+      }
+      h4{
+        margin-bottom: 40px;
+        letter-spacing: 0;
+      }
+    }
+  }
+  .courses{
+    float: left;
+    .d-none{
+      display: none;
+    }
+    .machine-language{
+      padding: 0 13px !important;
+      display: table-cell;
+      .mobile-size-heading{
+        display: table-caption;
+      }
+      .display-none{
+        display: none;
+      }
+    }
+    .hybrid-app-develpment{
+      padding: 0 13px !important;
+    }
+    .featured-couses{
+      position: relative;
+      background-position: 0 !important;
+      .courses-heading{
+        width: 62% !important;
+        position: absolute;
+        .featured-all-icons{
+          padding: 10px 0;
+        }
+      }
+    }
+    .courese-end{
+      span{
+        float: right;
+        margin-right: 35px;
+      }
+    }
+  }
+    h2{
+      font-size: 14px !important;
+      font-weight: bold;
+    }
+  h3{
+    display: none;
+  }
+  p{
+    //display: none;
+  }
+  h4{
+      font-size: 13px;
+    }
+  h5{
+    width: 100% !important;
+    font-size: 10px !important;
+    padding: 3px 15px !important;
+    margin: 10px 0 0 -18px !important;
+    top: 5px !important;
+    display: inline;
+    &:after{
+      bottom: -10px !important;
+      border-top: 10px solid #0f7563 !important;
+    }
+  }
+  h6{
+    font-size: 10px !important;
+    font-family: monospace !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+  }
+    .hiden{
+      img{
+        display: none;
+      }
+    }
+    .marg-hero{
+      h2{
+        margin: 0;
+      }
+    }
+    .meteor-apps{
+      height: auto !important;
+      margin-top: 10px !important;
+      padding: 30px 0;
+    }
+    .wordpress{
+      height: auto !important;
+      margin-top: 10px !important;
+      padding: 30px 0;
+    }
+    .destop-apps{
+      height: auto !important;
+      margin-top: 10px !important;
+      padding: 30px 0;
+    }
+    .hybrid-apps{
+      height: auto !important;
+      padding: 20px 0;
+      margin-top: 10px;
+    }
+    .featured-couses{
+      background-position: 0 230px !important;
+      //padding-bottom: 45px;
+      background-size: cover !important;
+    .courses-heading{
+      margin: 10px 0 0 -14px !important;
+      top: 10px !important;
+      width: 52% !important;
+    }
+      .featured-icons{
+        padding-top: 70px;
+        margin: 0;
+      }
+    }
+    .courses-heading{
+      img{
+        width: 10%;
+      }
+    }
+  .create-courses {
+    label{
+      padding: 10px 12px 0 10px;
+    }
+    .chekbox-button{
+      width: 100% !important;
+      font-size: 10px !important;
+    }
+    .prerequisites{
+      h2{
+        width: 100% ;
+      }
+      .html-css{
+      width: 100%;
+    }
+      ul{
+        li{
+          padding: 5px 10px !important;
+          margin: 0 5px !important;
+        }
+      }
+    }
+
+  }
+  body .courses{
+    h1{
+      float: none;
+    }
+  }
+  body .courses .mean-stack{
+    padding: 0 13px;
+  }
+  body .courses .machine-language{
+
   }
 }
 

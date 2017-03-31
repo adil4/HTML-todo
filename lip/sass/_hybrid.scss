@@ -14,6 +14,9 @@ body {
       background: none;
       border: none;
       box-shadow: none;
+      .navbar-header{
+        margin-top: 10px;
+      }
       ul {
         margin: 32px 0 0 20px;
         li {
@@ -57,6 +60,7 @@ body {
         p {
           color: #ffffff;
           margin: 10px 0 0 0;
+          font-weight: bold;
         }
       }
     }
@@ -68,29 +72,43 @@ body {
       border: none;
       font-weight: bold;
       font-size: 25px;
-      margin: 45px 0;
+      margin: 50px 0 70px 0;
     }
   }
   .middle-about-academy {
-    background: url("../../img/about-academy-bg.jpg");
-    height: 588px;
+    background: url("../../img/about-academy-bg.jpg")no-repeat;
+    background-size: cover;
+    height: auto;
     color: #555555;
     h1 {
       margin: 220px 0 60px 0;
     }
     p {
       line-height: 30px;
-      width: 65%;
+      width: 94%;
+      font-size: 20px;
     }
     img {
-      margin-top: 50px;
-      position: relative;
+      margin-top: 60px;
     }
   }
   .best-guide {
     background: url("../../img/best-guide-bg.jpg");
-    height: 203px;
-    position: relative;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    float: left;
+    padding: 66px 0;
+    ul{
+      display: inline-block;
+      padding: 0;
+      li{
+        display: inline-block;
+      }
+    }
+    .best-teacher{
+
+    }
     h4 {
       color: #ffffff;
       display: inline-block;
@@ -113,12 +131,15 @@ body {
     }
   }
   .courses {
-    background: url("../../img/thrid-bc.png");
+    background: url(../../img/thrid-bc.png)snow;
     color: #ffffff;
     //padding: 0 0 0 20px;
+    img {
+      margin: 30px 0 20px 0;
+    }
     .featured-icons{
       margin-top: 80px;
-
+      padding-bottom: 58px;
     }
     .courses-heading {
       margin: -2px 0 0 -14px;
@@ -131,9 +152,15 @@ body {
       margin-top: 90px;
       margin-bottom: 60px;
       color: #000000;
+      float: right;
+      width: 100%;
     }
     h2 {
       font-size: 22px;
+      margin-top: 0;
+    }
+    .mobile-size-heading{
+      display: none;
     }
     h3 {
       font-size: 20px;
@@ -149,7 +176,7 @@ body {
       &:after {
         content: "";
         position: absolute;
-        bottom: -15px;
+        bottom: -14px;
         left: 0;
         border-left: 15px solid transparent;
         border-top: 15px solid #0f7563;
@@ -166,9 +193,7 @@ body {
     p {
       font-size: 14px;
     }
-    img {
-      margin-top: 25px;
-    }
+
     .courese-end {
       color: #404040;
       margin-bottom: 40px;
@@ -178,8 +203,8 @@ body {
       }
     }
     .featured-couses {
-      background: url("../../img/featured-courses.png");
-      height: 425px;
+      background: url("../../img/featured-courses.png")no-repeat;
+      height: auto;
       color: #ffffff;
       img {
         //margin-top: 75px;
@@ -230,17 +255,24 @@ body {
       background: url("../../img/short-hybrid-bg.jpg");
       padding: 0 0 0 20px;
     }
+    .moile-size{
+      display: none;
+    }
   }
   .providing {
     background: url("../../img/PROVIVDIN-BACKGROUNG.png") no-repeat;
+    background-size: cover;
     .providing-icon {
-      margin: 70px 0 0 0;
+      margin: 90px 0 0 0;
       h1 {
         font-size: 40px;
         color: #ffffff;
         span {
           font-weight: bold;
         }
+      }
+      img{
+        margin-bottom: 35px;
       }
       button {
         background: #ffffff;
@@ -254,7 +286,7 @@ body {
   }
   .create-courses {
     background: url("../../img/create-course-bg.jpg")no-repeat;
-    height: 700px;
+    height: auto;
     background-size: cover;
     h1 {
       margin: 90px 0 50px 0;
@@ -268,6 +300,7 @@ body {
       width: 100%;
       height: 220px;
       padding: 0 20px;
+      margin-bottom: 90px;
       .html-css{
         width: 65%;
         float: left;
@@ -311,27 +344,6 @@ body {
         }
       }
     }
-    //.form-group input[type="checkbox"] {
-    //  display: none;
-    //}
-    //
-    //.form-group input[type="checkbox"] + .btn-group > label span {
-    //  width: 20px;
-    //}
-    //
-    //.form-group input[type="checkbox"] + .btn-group > label span:first-child {
-    //  display: none;
-    //}
-    //.form-group input[type="checkbox"] + .btn-group > label span:last-child {
-    //  display: inline-block;
-    //}
-    //.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
-    //  display: inline-block;
-    //}
-    //.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
-    //  display: none;
-    //}
-
     body {
       background: #ecf0f1;
       color: #8e44ad;
@@ -444,21 +456,24 @@ body {
     }
   }
   .recent-event {
-    background: url("../../img/slider-background.png");
-    background-position: 0 -897px;
+    background: url(../../img/slider-background.png)no-repeat;
+    background-position:0 -937px;
+    width: 100%;
+    background-size: cover;
     h1 {
-      margin: 70px 0 40px 0;
+      margin: 90px 0 50px 0;
     }
     .annual-wordpress {
       background: #ffffff;
       padding: 0;
-      margin-bottom: 60px;
+      margin-bottom: 90px;
       img {
         width: 100%;
       }
       h3 {
         padding: 0 20px;
         font-size: 20px;
+        font-weight: bold;
       }
       p {
         padding: 0 20px;
@@ -478,9 +493,10 @@ body {
     width: 100%;
     position: absolute;
     bottom: 60px;
-    h1 {
+    .form-heading {
       color: #fff;
       padding: 0 0 0 10px;
+      margin: 50px 0 20px 0;
     }
     .form-group {
       margin: 0;
@@ -525,8 +541,11 @@ body {
   }
   .map {
     position: relative;
-
+    height: 774px;
   }
+  //.place-card place-card-large{
+  //  display: none;
+  //}
   .details {
     background: #17a992;
     color: #ffffff;

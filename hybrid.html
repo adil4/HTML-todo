@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="lip/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <!--<link rel="stylesheet" type="text/css" href="slick/slick.css"/>-->
-    <!--<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 </head>
 <body>
 
@@ -78,7 +79,7 @@
             </div>
         </div>
 
-<!--//////////////////////////////////// HEADER END ///////////////////////////////-->
+        <!--//////////////////////////////////// HEADER END ///////////////////////////////-->
 
         <!--/////////////////////////////////////////////// MIDDLE START //////////////////////////////////////-->
 
@@ -97,16 +98,30 @@
         <div class="best-guide">
             <div class="container">
                 <div class="col-lg-4 text-center">
-                    <img src="img/best-teacher-icon.png" alt=""/>
-                    <h4>BEST TEACHERS <br/><span>FROM INDUSTRY</span></h4>
+                    <div class="best-teacher">
+                        <ul>
+                            <li> <img class="best-guide-img" src="img/best-teacher-icon.png" alt=""/></li>
+                            <li><h4>BEST TEACHERS <br/><span>FROM INDUSTRY</span></h4></li>
+                        </ul>
+                </div>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <img src="img/best-course-icon.png" alt=""/>
-                    <h4>BEST COURSE<br/><span class="leaners">FOR LEARNERS </span></h4>
+                    <div class="best-course">
+                        <ul>
+                            <li><img class="best-guide-img" src="img/best-course-icon.png" alt=""/></li>
+                            <li><h4>BEST COURSE<br/><span class="leaners">FOR LEARNERS </span></h4></li>
+                        </ul>
+                </div>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <img src="img/free-guide-icon.png" alt=""/>
-                    <h4>FREE GUIDANCE<br/><span class="professional">FROM PROFESSIONALS</span></h4>
+                    <div class="free-guide">
+                        <ul>
+                            <li><img class="best-guide-img" src="img/free-guide-icon.png" alt=""/></li>
+                            <li><h4>FREE GUIDANCE<br/><span class="professional">FROM PROFESSIONALS</span></h4></li>
+                        </ul>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -114,11 +129,11 @@
         <div class="courses">
             <div class="container">
                 <h1 class="text-center">COURSES</h1>
-                <div class="col-lg-6">
+                <div class="col-lg-6 padding-hero">
                     <div class="featured-couses">
-                        <h5 class="courses-heading"><img src="img/star.png" alt=""/>FEATURED COURSES</h5>
+                        <h5 class="courses-heading "><img src="img/star.png" alt=""/>FEATURED COURSES</h5>
                         <div class="featured-all-icons">
-                            <div class="featured-icons text-center">
+                            <div class="featured-icons hiden text-center">
                                 <img src="img/certified-develop-icon.png" alt=""/>
                                 <h2>APPBAKERZ CERTIFIED <br/> DEVELOPMENT SPECIALIST</h2>
                                 <h4>(15-MONTHS)</h4>
@@ -126,60 +141,98 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="hybrid-apps text-center">
+                <div class="col-lg-6 padding-hero">
+                    <div class="hybrid-apps hiden text-center">
                         <img src="img/hybrid-app-icons.png" alt=""/>
                         <h2>HYBRID APPS <br/>DEVELOPMENT SPECIALIST</h2>
                         <h4>(6-MONTHS)</h4>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="meteor-apps text-center">
+                <div class="col-lg-6 padding-hero">
+                    <div class="meteor-apps hiden marg-hero text-center">
                         <img src="img/meteor-apps-icons.png" alt=""/>
                         <h2>METEOR APPS <br/>DEVELOPMENT SPECIALIST</h2>
                         <h4>(6-MONTHS)</h4>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="wordpress text-center">
+                <div class="col-lg-6 padding-hero">
+                    <div class="wordpress hiden text-center">
                         <img src="img/wordpress-develop-icon.png" alt=""/>
                         <h2>WORDPRESS <br/>DEVELOPMENT SPECIALIST</h2>
                         <h4>(6-MONTHS)</h4>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="destop-apps text-center">
+                <div class="col-lg-6 padding-hero">
+                    <div class="destop-apps hiden text-center">
                         <img src="img/desktop-app-icons.png" alt=""/>
                         <h2>DESTOP APPS <br/>DEVELOPMENT SPECIALIST</h2>
                         <h4>(6-MONTHS)</h4>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-xs-6 padding-hero">
                     <div class="machine-language">
                         <h5>short courses</h5>
-                        <h3>MACHINE LANGUAGE</h3>
-                        <p>BINARY OR HEXADEMICAL INSTRUCTIONS</p>
+                        <h3 class="heading-show-hiden">
+                            MACHINE LANGUAGE
+                        </h3>
+
+                        <h2 class="mobile-size-heading">FRONT-END
+                            DEVELOPMENT</h2>
+                        <p class="display-none">BINARY OR HEXADEMICAL INSTRUCTIONS</p>
                         <h6>3-MONTHS PROGRAM</h6>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-xs-6 padding-hero">
                     <div class="mean-stack">
                         <h5>short courses</h5>
                         <h3>MEAN STACK DEVEOLPMENT</h3>
                         <p>MANGODB,EXPRESS,ANGULAR AND NODE</p>
+                        <h2 class="mobile-size-heading">FRONT-END
+                            DEVELOPMENT</h2>
                         <h6>3-MONTHS PROGRAM</h6>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-xs-6 padding-hero">
                     <div class="hybrid-app-develpment">
                         <h5>short courses</h5>
                         <h3>HYBRID APP DEVEOLPMENT</h3>
                         <p>EMBED HTML5 APPS INSIDE A NAGTIVE APP</p>
+                        <h2 class="mobile-size-heading">FRONT-END
+                            DEVELOPMENT</h2>
                         <h6>3-MONTHS PROGRAM</h6>
                     </div>
                 </div>
-
+                <div class="col-lg-4 col-xs-6 padding-hero">
+                    <div class="hybrid-app-develpment moile-size">
+                        <h5>short courses</h5>
+                        <h3>HYBRID APP DEVEOLPMENT</h3>
+                        <p>EMBED HTML5 APPS INSIDE A NAGTIVE APP</p>
+                        <h2>FRONT-END
+                            DEVELOPMENT</h2>
+                        <h6>3-MONTHS PROGRAM</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-6 padding-hero">
+                    <div class="hybrid-app-develpment moile-size">
+                        <h5>short courses</h5>
+                        <h3>HYBRID APP DEVEOLPMENT</h3>
+                        <p>EMBED HTML5 APPS INSIDE A NAGTIVE APP</p>
+                        <h2>FRONT-END
+                            DEVELOPMENT</h2>
+                        <h6>3-MONTHS PROGRAM</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-6 padding-hero">
+                    <div class="hybrid-app-develpment moile-size">
+                        <h5>short courses</h5>
+                        <h3>HYBRID APP DEVEOLPMENT</h3>
+                        <p>EMBED HTML5 APPS INSIDE A NAGTIVE APP</p>
+                        <h2>FRONT-END
+                            DEVELOPMENT</h2>
+                        <h6>3-MONTHS PROGRAM</h6>
+                    </div>
+                </div>
                 <h4 class="text-center courese-end">
                     NOT INSTERESTED? <span>CREATE YOUR OWN COURSE!</span>
                 </h4>
@@ -285,10 +338,10 @@
                             </ul>
                         </div>
                         <div class="courses-duration">
-                        <h2>COURSES DURATION</h2>
+                            <h2>COURSES DURATION</h2>
                             <p>9 Months</p>
                             <button>ENROLL NOW</button>
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -312,33 +365,55 @@
             <div class="container">
 
                 <h1 class="text-center">RECENT EVENTS</h1>
-                <div class=" col-lg-4">
-                    <div class="annual-wordpress">
-                        <img src="img/meetup-img.jpg" alt=""/>
-                        <h3>ANNUAL WORDPRESS <br/>MEETUP</h3>
-                        <p>annual-wordpressannual-wordpressannual-wordpressannual-wordpressannual-wordpress.</p>
-                        <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
-                        <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i>
-                        </label>
+                <div class="recent-event-slider">
+                    <div>
+                        <div class=" col-lg-12">
+                            <div class="annual-wordpress">
+                                <img src="img/meetup-img.jpg" alt=""/>
+                                <h3>ANNUAL WORDPRESS <br/>MEETUP</h3>
+                                <p>annual-wordpressannual-wordpressannual-wordpressannual-wordpressannual-wordpress.</p>
+                                <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
+                                <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i>
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class=" col-lg-4">
-                    <div class="annual-wordpress">
-                        <img src="img/hybrid-img.jpg" alt=""/>
-                        <h3>HYPRID APP DEVELOPMENT <br/>TRAINING SESSION</h3>
-                        <p>Education is the process of facilitating learning. Knowledge, skills, values .</p>
-                        <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
-                        <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i></label>
-                    </div>
-                </div>
-                <div class=" col-lg-4">
-                    <div class="annual-wordpress">
-                        <img src="img/annual-img.jpg" alt=""/>
-                        <h3>ANNUAL UPWORK  <br/>FREELANCERS MEETUP</h3>
-                        <p>Education is the process of facilitating learning. Knowledge, skills, values .</p>
-                        <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
-                        <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i></label>
-                    </div>
+                    <div> <div class=" col-lg-12">
+                        <div class="annual-wordpress">
+                            <img src="img/hybrid-img.jpg" alt=""/>
+                            <h3>HYPRID APP DEVELOPMENT <br/>TRAINING SESSION</h3>
+                            <p>Education is the process of facilitating learning. Knowledge, skills, values .</p>
+                            <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
+                            <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i></label>
+                        </div>
+                    </div></div>
+                    <div>  <div class=" col-lg-12">
+                        <div class="annual-wordpress">
+                            <img src="img/annual-img.jpg" alt=""/>
+                            <h3>ANNUAL UPWORK  <br/>FREELANCERS MEETUP</h3>
+                            <p>Education is the process of facilitating learning. Knowledge, skills, values .</p>
+                            <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
+                            <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i></label>
+                        </div>
+                    </div></div>
+                    <div> <div class=" col-lg-12">
+                        <div class="annual-wordpress">
+                            <img src="img/hybrid-img.jpg" alt=""/>
+                            <h3>HYPRID APP DEVELOPMENT <br/>TRAINING SESSION</h3>
+                            <p>Education is the process of facilitating learning. Knowledge, skills, values .</p>
+                            <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
+                            <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i></label>
+                        </div>
+                    </div></div>
+                    <div>  <div class=" col-lg-12">
+                        <div class="annual-wordpress">
+                            <img src="img/annual-img.jpg" alt=""/>
+                            <h3>ANNUAL UPWORK  <br/>FREELANCERS MEETUP</h3>
+                            <p>Education is the process of facilitating learning. Knowledge, skills, values .</p>
+                            <label class="glyphicon glyphicon-eye-open"><span>667</span></label>
+                            <label><i class="fa fa-comments-o" aria-hidden="true"><span>113</span></i></label>
+                        </div>
+                    </div></div>
                 </div>
             </div>
             <div class=" map">
@@ -350,7 +425,7 @@
             <div class="container">
                 <div class="col-lg-6 ">
                     <div class="form">
-                        <h1 class="text-uppercase">Contact Us</h1>
+                        <h1 class="text-uppercase form-heading">Contact Us</h1>
 
                         <div class="col-lg-12">
                             <div class="form-group">
@@ -442,10 +517,9 @@
 </div>
 
 
-<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
-<!--<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
-<!--<script type="text/javascript" src="slick/slick.min.js"></script>-->
 <script src="lip/bootstrap-3.3.7-dist/js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="js/hybrid.js"></script>
 <script src="lip/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
 </body>

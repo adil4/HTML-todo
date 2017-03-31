@@ -11,6 +11,8 @@ body {
       background: none;
       border: none;
       box-shadow: none; }
+      body .header-background .navbar-default .navbar-header {
+        margin-top: 10px; }
       body .header-background .navbar-default ul {
         margin: 32px 0 0 20px; }
         body .header-background .navbar-default ul li a {
@@ -40,7 +42,8 @@ body {
         margin: 0 0 0 30px; }
         body .header-background .icons li p {
           color: #ffffff;
-          margin: 10px 0 0 0; }
+          margin: 10px 0 0 0;
+          font-weight: bold; }
     body .header-background button {
       color: #4c667a;
       background: #ffffff;
@@ -49,23 +52,32 @@ body {
       border: none;
       font-weight: bold;
       font-size: 25px;
-      margin: 45px 0; }
+      margin: 50px 0 70px 0; }
   body .middle-about-academy {
-    background: url("../../img/about-academy-bg.jpg");
-    height: 588px;
+    background: url("../../img/about-academy-bg.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
     color: #555555; }
     body .middle-about-academy h1 {
       margin: 220px 0 60px 0; }
     body .middle-about-academy p {
       line-height: 30px;
-      width: 65%; }
+      width: 94%;
+      font-size: 20px; }
     body .middle-about-academy img {
-      margin-top: 50px;
-      position: relative; }
+      margin-top: 60px; }
   body .best-guide {
     background: url("../../img/best-guide-bg.jpg");
-    height: 203px;
-    position: relative; }
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    float: left;
+    padding: 66px 0; }
+    body .best-guide ul {
+      display: inline-block;
+      padding: 0; }
+      body .best-guide ul li {
+        display: inline-block; }
     body .best-guide h4 {
       color: #ffffff;
       display: inline-block;
@@ -83,10 +95,13 @@ body {
       body .best-guide h4 .professional {
         margin: 0; }
   body .courses {
-    background: url("../../img/thrid-bc.png");
+    background: url(../../img/thrid-bc.png) snow;
     color: #ffffff; }
+    body .courses img {
+      margin: 30px 0 20px 0; }
     body .courses .featured-icons {
-      margin-top: 80px; }
+      margin-top: 80px;
+      padding-bottom: 58px; }
     body .courses .courses-heading {
       margin: -2px 0 0 -14px; }
       body .courses .courses-heading img {
@@ -94,9 +109,14 @@ body {
     body .courses h1 {
       margin-top: 90px;
       margin-bottom: 60px;
-      color: #000000; }
+      color: #000000;
+      float: right;
+      width: 100%; }
     body .courses h2 {
-      font-size: 22px; }
+      font-size: 22px;
+      margin-top: 0; }
+    body .courses .mobile-size-heading {
+      display: none; }
     body .courses h3 {
       font-size: 20px;
       margin-top: 80px; }
@@ -110,7 +130,7 @@ body {
       body .courses h5:after {
         content: "";
         position: absolute;
-        bottom: -15px;
+        bottom: -14px;
         left: 0;
         border-left: 15px solid transparent;
         border-top: 15px solid #0f7563;
@@ -123,8 +143,6 @@ body {
       padding-bottom: 10px; }
     body .courses p {
       font-size: 14px; }
-    body .courses img {
-      margin-top: 25px; }
     body .courses .courese-end {
       color: #404040;
       margin-bottom: 40px; }
@@ -132,8 +150,8 @@ body {
         color: #333333;
         font-weight: bold; }
     body .courses .featured-couses {
-      background: url("../../img/featured-courses.png");
-      height: 425px;
+      background: url("../../img/featured-courses.png") no-repeat;
+      height: auto;
       color: #ffffff; }
       body .courses .featured-couses h2 {
         font-size: 25px; }
@@ -170,15 +188,20 @@ body {
     body .courses .hybrid-app-develpment {
       background: url("../../img/short-hybrid-bg.jpg");
       padding: 0 0 0 20px; }
+    body .courses .moile-size {
+      display: none; }
   body .providing {
-    background: url("../../img/PROVIVDIN-BACKGROUNG.png") no-repeat; }
+    background: url("../../img/PROVIVDIN-BACKGROUNG.png") no-repeat;
+    background-size: cover; }
     body .providing .providing-icon {
-      margin: 70px 0 0 0; }
+      margin: 90px 0 0 0; }
       body .providing .providing-icon h1 {
         font-size: 40px;
         color: #ffffff; }
         body .providing .providing-icon h1 span {
           font-weight: bold; }
+      body .providing .providing-icon img {
+        margin-bottom: 35px; }
       body .providing .providing-icon button {
         background: #ffffff;
         height: 35px;
@@ -188,7 +211,7 @@ body {
         margin: 25px 0 60px 0; }
   body .create-courses {
     background: url("../../img/create-course-bg.jpg") no-repeat;
-    height: 700px;
+    height: auto;
     background-size: cover;
     /* Checked */
     /* Transition */ }
@@ -201,7 +224,8 @@ body {
       background: #fff;
       width: 100%;
       height: 220px;
-      padding: 0 20px; }
+      padding: 0 20px;
+      margin-bottom: 90px; }
       body .create-courses .prerequisites .html-css {
         width: 65%;
         float: left; }
@@ -314,19 +338,22 @@ body {
     body .icons-background .icon-img {
       margin-bottom: 20px; }
   body .recent-event {
-    background: url("../../img/slider-background.png");
-    background-position: 0 -897px; }
+    background: url(../../img/slider-background.png) no-repeat;
+    background-position: 0 -937px;
+    width: 100%;
+    background-size: cover; }
     body .recent-event h1 {
-      margin: 70px 0 40px 0; }
+      margin: 90px 0 50px 0; }
     body .recent-event .annual-wordpress {
       background: #ffffff;
       padding: 0;
-      margin-bottom: 60px; }
+      margin-bottom: 90px; }
       body .recent-event .annual-wordpress img {
         width: 100%; }
       body .recent-event .annual-wordpress h3 {
         padding: 0 20px;
-        font-size: 20px; }
+        font-size: 20px;
+        font-weight: bold; }
       body .recent-event .annual-wordpress p {
         padding: 0 20px; }
       body .recent-event .annual-wordpress label {
@@ -339,9 +366,10 @@ body {
     width: 100%;
     position: absolute;
     bottom: 60px; }
-    body .form h1 {
+    body .form .form-heading {
       color: #fff;
-      padding: 0 0 0 10px; }
+      padding: 0 0 0 10px;
+      margin: 50px 0 20px 0; }
     body .form .form-group {
       margin: 0; }
     body .form .comment {
@@ -376,7 +404,8 @@ body {
       font-weight: bold;
       margin-top: 10px; }
   body .map {
-    position: relative; }
+    position: relative;
+    height: 774px; }
   body .details {
     background: #17a992;
     color: #ffffff; }
@@ -448,6 +477,9 @@ body {
     padding: 20px 0; }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .padding-hero {
+    padding: 0; }
+
   .header-background .navbar-toggle {
     background: none;
     margin: 25px 0; }
@@ -476,16 +508,140 @@ body {
   .middle-about-academy p {
     line-height: 30px;
     width: 100% !important;
-    font-size: 13px;
+    font-size: 13px !important;
     text-align: center; }
   .middle-about-academy img {
     text-align: center;
-    margin: 0 auto;
+    margin-top: 30px !important;
     width: 100%; }
 
-  .providing .providing-icon h1 {
-    font-size: 24px; }
-  .providing .providing-icon button {
-    width: 35%; } }
+  .providing {
+    float: left; }
+    .providing .providing-icon h1 {
+      font-size: 24px !important; }
+    .providing .providing-icon button {
+      width: 55% !important; }
+
+  .best-guide {
+    padding-bottom: 20px !important; }
+    .best-guide ul {
+      margin-bottom: 30px;
+      width: 100%; }
+      .best-guide ul img {
+        margin: 0; }
+      .best-guide ul h4 {
+        margin-bottom: 40px;
+        letter-spacing: 0; }
+
+  .courses {
+    float: left; }
+    .courses .d-none {
+      display: none; }
+    .courses .machine-language {
+      padding: 0 13px !important;
+      display: table-cell; }
+      .courses .machine-language .mobile-size-heading {
+        display: table-caption; }
+      .courses .machine-language .display-none {
+        display: none; }
+    .courses .hybrid-app-develpment {
+      padding: 0 13px !important; }
+    .courses .featured-couses {
+      position: relative;
+      background-position: 0 !important; }
+      .courses .featured-couses .courses-heading {
+        width: 62% !important;
+        position: absolute; }
+        .courses .featured-couses .courses-heading .featured-all-icons {
+          padding: 10px 0; }
+    .courses .courese-end span {
+      float: right;
+      margin-right: 35px; }
+
+  h2 {
+    font-size: 14px !important;
+    font-weight: bold; }
+
+  h3 {
+    display: none; }
+
+  h4 {
+    font-size: 13px; }
+
+  h5 {
+    width: 100% !important;
+    font-size: 10px !important;
+    padding: 3px 15px !important;
+    margin: 10px 0 0 -18px !important;
+    top: 5px !important;
+    display: inline; }
+    h5:after {
+      bottom: -10px !important;
+      border-top: 10px solid #0f7563 !important; }
+
+  h6 {
+    font-size: 10px !important;
+    font-family: monospace !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important; }
+
+  .hiden img {
+    display: none; }
+
+  .marg-hero h2 {
+    margin: 0; }
+
+  .meteor-apps {
+    height: auto !important;
+    margin-top: 10px !important;
+    padding: 30px 0; }
+
+  .wordpress {
+    height: auto !important;
+    margin-top: 10px !important;
+    padding: 30px 0; }
+
+  .destop-apps {
+    height: auto !important;
+    margin-top: 10px !important;
+    padding: 30px 0; }
+
+  .hybrid-apps {
+    height: auto !important;
+    padding: 20px 0;
+    margin-top: 10px; }
+
+  .featured-couses {
+    background-position: 0 230px !important;
+    background-size: cover !important; }
+    .featured-couses .courses-heading {
+      margin: 10px 0 0 -14px !important;
+      top: 10px !important;
+      width: 52% !important; }
+    .featured-couses .featured-icons {
+      padding-top: 70px;
+      margin: 0; }
+
+  .courses-heading img {
+    width: 10%; }
+
+  .create-courses label {
+    padding: 10px 12px 0 10px; }
+  .create-courses .chekbox-button {
+    width: 100% !important;
+    font-size: 10px !important; }
+  .create-courses .prerequisites h2 {
+    width: 100%; }
+  .create-courses .prerequisites .html-css {
+    width: 100%; }
+  .create-courses .prerequisites ul li {
+    padding: 5px 10px !important;
+    margin: 0 5px !important; }
+
+  body .courses h1 {
+    float: none; }
+
+  body .courses .mean-stack {
+    padding: 0 13px; } }
 
 /*# sourceMappingURL=main.css.map */
